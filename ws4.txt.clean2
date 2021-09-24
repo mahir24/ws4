@@ -1,0 +1,350 @@
+Script started on 2021-09-24 02:38:29+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ mkr[Kdir PRODCUTS CUSTOMERS
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd ~
+]0;rahman@f6linux20: ~rahman@f6linux20:~$ cd WS3[K[K[K[K[K[Kcd WS4
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ gre [K[K[K[Kcd WS3
+bash: cd: WS3: No such file or directory
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd ~
+]0;rahman@f6linux20: ~rahman@f6linux20:~$ cd WS3
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cp [K[K[Kls
+amazon_reviews_us_Books_v1_02.tsv
+cmds.log
+customerids.txt
+customerids.txt.sorted
+customerids.txt.sorted.uniqcount
+customerids.txt.sorted.uniqcount.reversed
+helpful.txt
+helpful.txt.sorted
+helpful.txt.sorted.uniqcount
+helpful.txt.sorted.uniqcount.reversed
+productids.txt
+productids.txt.sorted
+productids.txt.sorted.uniqcount
+productids.txt.sorted.uniqcount.reversed
+ws3.txt
+ws3.txt.clean
+ws3.txt.clean2
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cp customerids.txt.sorted.uniqcount.reversed /[K~/WS4
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cd ~/WS4
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODCUTS  customerids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ grephead [K[K[K[K[K[K[K[K[Khead customerids.txt.sorted.uniqcount.reversed
+      6 52948753
+      6 45041039
+      5 50732546
+      5 50732546
+      5 50122160
+      5 50122160
+      5 49693975
+      4 53096008
+      4 52906860
+      4 52558609
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ 52948753g52948753r52948753e52948753p52948753 52948753[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Kcd WS[K[K~/WS3
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cp amazon_reviews_us_Books_v1_02.tsv ~/WS4
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cp amazon_reviews_us_Books_v1_02.tsv ~/WS4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ~/WS3[Khead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/WS3[Khead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ~/WS4
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ grep 52948753 amazon_reviews_us_Books_v1_02.tsv >>[K CUSTOM ER[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ grep 52948753 amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS[K[K[K[K[K[K[K[K[K[1@e[C[C[C[C[C[1@"[1@/[1@t[1P[1P[1@\[1@t[C[C[C[C[C[C[C[C[1@\[1@t[1@"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CCUSTOMERS/[K/52948753.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls -[K[K[K[Kegrep "\t52948753\t" amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/52948753.txt[C[1P[1P[7@       [C52948753 [8P52948753[8@ 52948753       [C[C
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls -altr CUSTOMERS/
+total 12
+drwxrwxr-x 4 rahman rahman 4096 Sep 24 02:44 ..
+drwxrwxr-x 2 rahman rahman 4096 Sep 24 02:47 .
+-rw-rw-r-- 1 rahman rahman 3274 Sep 24 03:07 52948753.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd CUSTOMERS
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd CUSTOMERS
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$  ghead [K[K[K[K[K[K[K=hea[K[K[K[Khead [K[K[K[K[Khead -n [K[K[K[K[K[K[K[Kcut -d "      " -f 9 52948753.txt > 52948753.txt[K[K[Khelpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls -latr
+total 16
+drwxrwxr-x 4 rahman rahman 4096 Sep 24 02:44 ..
+-rw-rw-r-- 1 rahman rahman 3274 Sep 24 03:07 52948753.txt
+-rw-rw-r-- 1 rahman rahman   14 Sep 24 03:10 52948753.helpfulness.txt
+drwxrwxr-x 2 rahman rahman 4096 Sep 24 03:10 .
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count =0; total [K=0;
+
+Command 'count' not found, did you mean:
+
+  command 'mount' from deb mount (2.34-0.1ubuntu9.1)
+  command 'ocount' from deb oprofile (1.3.0-0ubuntu13)
+
+Try: apt install <deb name>
+
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in 52948753.txt[K[K[Khelpfulness.txt'52948753.helpfulness.txtc52948753.helpfulness.txta52948753.helpfulness.txtt52948753.helpfulness.txt 52948753.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' ; do ; done[1@t[1@o[1@t[1@a[1@l[1@=[1@ [1@$[1@([1@e[1@c[1@h[1@o[1@ [1@$[1@t[1@o[1@t[1@a[1@l[1@ [1@+[1@$[1@i[1@ [1@|[1@b[1@c[1@)[C; done[1@ [1@([1@c[1@o[1@u[1@n[1@t[1@+[1@+[1@)[1@)[C[C[1@([C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+(standard_in) 1: syntax error
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total =0;
+
+Command 'total' not found, did you mean:
+
+  command 'topal' from deb topal (80-1build1)
+
+Try: apt install <deb name>
+
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0; count=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in 'cat 52948753.txt[K[K[Khelpfulness.txt';[K ; do total=$(echo $total+$i | bd[Kc); ((count++)); done
+(standard_in) 1: syntax error
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ `'[K[Kfor i in 'cat 52948753.helpfulness.txt' ; do total=$(echo $total+$i | bc); ((count++)); done[1P[1@`[1P[C[1@ [C[1P[1@`
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+52948753.helpfulness.txt  52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo total
+total
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total[Kal[K[K[K[K[K[K[K[K[K[K[K[Ktotal=1;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+1
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0echo $total[3Ptotal=1;echo $total[1Ptotalls[Kfor i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done(standard_in) 1: syntax error
+bash: syntax error near unexpected token `('
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done(standard_in) 1: syntax error[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0[Kecho $total[3Ptotal=1;echo $total[1Ptotalls[Kfor i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'cat 52948753.helpfulness.txt'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`cat 52948753.helpfulness.txt`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'cat 52948753.helpfulness.txt'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`cat 52948753.helpfulness.txt`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kecho total$total[3Ptotal=1;echo $total[4Ptotal=0for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done(standard_in) 1: syntax error[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfor i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kwc 52948753.helpfulness.txt
+ 6  6 14 52948753.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+49
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $o[Kcount
+13
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo "$total/$count" |bc[K[K bc
+3
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo "$total/$count" | bc[1@s[1@c[1@a[1@l[1@e[1@-[1P[1@=[1@2[1@;[1@ 
+3.76
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cont[K[Kunt=0;total=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@-[1@3[1@.[1@7[1@6[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ^C
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $i-3.76 | bc); ((count++)); done;[1@([C[C[C[C[C[C[C[C[1@)[1@^[1@2[1@t[1@o[1@t[1@a[1@l[1@+[C[1@$
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0;count=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0;count=0;for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+($i-3.76)^2 | bc); ((count++)); done;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+205.30
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo count[K[K[K[K[K$count
+6
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+52948753.helpfulness.txt  52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ egrep " 52948753        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/52948753.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ egrep " 52948753        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/52948753.txt~45041039[K[K[K[K[K[K[K[K[K[1P3.txt[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt45041039.txt[1P[C[1P[1P[1P[1P[1P[1P[1P[8@45041039
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd CUSTOMERcut -d "      " -f 9 52948753.txt > 52948753.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt45041039.helpfulness.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[8@45041039[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd CUSTOMERS
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[1P[1P[1P[1P[1P[1P[6@      
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+45041039.helpfulness.txt  45041039.txt  52948753.helpfulness.txt  52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count=0; total=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[8@45041039
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $count
+0
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo$total[K[K[K[K[K[K $total
+0
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc45041039.helpfulness.txt 45041039.helpfulness.txt
+0 0 0 45041039.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc 45041039.helpfulness.txt[C[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt[1Ptxt
+0 0 0 45041039.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+45041039.helpfulness.txt  45041039.txt  52948753.helpfulness.txt  52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ rm45041039.txt[C 45041039.txt[C[C[C[C[C[C[C[C[C[C[C[C 45041039.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ls
+52948753.helpfulness.txt  52948753.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODCUTS  amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ head customerids.txt.sorted.uniqcount.reversed
+      6 52948753
+      6 45041039
+      5 50732546
+      5 50732546
+      5 50122160
+      5 50122160
+      5 49693975
+      4 53096008
+      4 52906860
+      4 52558609
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$  egrep " 52948753        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/52948753.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt45041039.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[8@        [8@45041039[8@        [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd CUSTOMERS
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cd CUSTOMERShead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsrm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 45041039.txt
+   2215  732214 4328813 45041039.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc 45041039.txt[3Pcd CUSTOMERShead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsrm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 45041039.txthelpfulness.txt[16Pecho $totalcountfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kls[Kcut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd CUSTOMERS[Kut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[6P[6@      
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc45041039.helpfulness.txt 45041039.helpfulness.txt
+2215 2215 4677 45041039.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count=0; o[Ktotal=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count=0; total=0;wc 45041039.helpfulness.txt[33@cut -d "      " -f 9 45041039.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc 45041039.txt[K[3Pcd CUSTOMERShead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsrm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 45041039.txthelpfulness.txt[16Pecho $totalcountfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kls[Kcount=0; total=0;for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo[K==[K[K[K[K[Kfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kwc 45041039.helpfulness.txt[33@cut -d "      " -f 9 45041039.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pwc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcount=0; total=0;for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kwc 45041039.helpfulness.txt[33@cut -d "      " -f 9 45041039.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc 45041039.txt[K[3Pcd CUSTOMERShead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsrm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 45041039.txthelpfulness.txt[16Pecho $totalcount
+2215
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $countfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $count[K[Kecho $count[K[K[K[K[Ktotal
+8838
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo "$total/$count" |bc[K[K bc[1@s[1@c[1@a[1@l[1@e[1@=[1@2[1@ [1P[1@;[1@ 
+3.99
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count[K[K[K[K[Kecho "scale=2; $total/$count" | bc$total[Kcountfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[K
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+($i-3.76)^2 | bc); ((count++)); done;[C[1P[1P[1@9[1@9
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[1P[1P[1P[1P[1P[1P[1P[1P[8@45041039
+^C
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0; count=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0; count=0;for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+107941.56
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ $[Kecho $count
+2215
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $counttotalfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0; count=0;[Kfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C52948753[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kecho "scale=2; $total/$count" | bc$total[Kcountfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kwc 45041039.helpfulness.txt[33@cut -d "      " -f 9 45041039.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc 45041039.txt[K[3Pcd CUSTOMERShead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plsrm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 45041039.txthelpfulness.txt[16Pecho $totalcountfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccount=0; total=0;[Kls[Kcut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd CUSTOMERS[Kegrep " 45041039        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/45041039.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[Kegrep " 45041039        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/45041039.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd CUSTOMERS[Kut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcount=0; total=0;for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $count[Ktotalwc 45041039.helpfulness.txttxt[Kls[Krm 45041039.txt 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..[3Plshead customerids.txt.sorted.uniqcount.reversed[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd CUSTOMERS[Kwc 45041039.txtcut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pwc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pcount=0; total=0;for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $count[Ktotal"scale=2; $total/$count" | bc[17Pcount=0; total=0;for i in `cat 52948753.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C45041039[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0; count=0;[Kfor i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $total[Kcount[Kcd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$  egrep "        45041039        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/45041039.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt50732546.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[8@        [8@50732546[8@        
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd CUSTOMERS
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc 50732546.txt
+    9964  2701580 16182071 50732546.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cut -d "      " -f 9 45041039.txt > 45041039.helpfulness.txt50732546[K[K[K[K[K[K[K[K[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt50732546.helpfulness.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[8@50732546[1P[1P[1P[1P[1P[1P[6@      
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ wc 50732546.helpfulness.txt
+ 9964  9964 21515 50732546.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ count=0;total=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[1P[1P[1P[1P[1P[1P[1P[1P[8@50732546
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $e[Ktotal
+58298
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $count
+9964
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo "scale=2; $total/$count" | bc
+5.85
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0;count=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ for i in `cat 45041039.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[C[1P[1P[1P[1P[1P[1P[1P[1P[8@50732546
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0;count=0;
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ total=0;count=0;for i in `cat 50732546.helpfulness.txt` ; do total=$(echo $total+($i-3.99)^2 | bc); ((count++)); done;[1P[1P[1P[1P[1@5[1@.[1@/[1@8[1@5[1P[1P[1P[1@8[1@5
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ ehco [K[K[K[Kcho $count
+9964
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ echo $total
+623589.48
+]0;rahman@f6linux20: ~/WS4/CUSTOMERSrahman@f6linux20:~/WS4/CUSTOMERS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODCUTS  amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd ..
+]0;rahman@f6linux20: ~rahman@f6linux20:~$ cd WS#[K3
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ ls
+amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted                     helpful.txt                   helpful.txt.sorted.uniqcount.reversed  productids.txt.sorted.uniqcount           ws3.txt.clean
+cmds.log                           customerids.txt.sorted.uniqcount           helpful.txt.sorted            productids.txt                         productids.txt.sorted.uniqcount.reversed  ws3.txt.clean2
+customerids.txt                    customerids.txt.sorted.uniqcount.reversed  helpful.txt.sorted.uniqcount  productids.txt.sorted                  ws3.txt
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cp customerids.txt.sorted.uniqcount.reversed ~/WS4[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@r[1@o[1@d[1@u[1@c[1@t[1@i[1@d[1@s
+]0;rahman@f6linux20: ~/WS3rahman@f6linux20:~/WS3$ cd `/[K[K~/ws[K[KWS4
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODCUTS  amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted.uniqcount.reversed  productids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ head productids.txt.sorted.uniqcount.reversed
+   4625 043935806X
+   3739 0439139597
+   2666 0525947647
+   2615 0895260174
+   2584 0385504209
+   2366 0590353403
+   2052 0439784549
+   2024 0316666343
+   1795 1400050308
+   1772 0312864590
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ egrep "        45041039        " amazon_reviews_us_Books_v1_02.tsv > CUSTOMERS/45041039.txt[C[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txt[1P/45041039.txtP/45041039.txtR/45041039.txtO/45041039.txtD/45041039.txtU/45041039.txtC/45041039.txtT/45041039.txtS/45041039.txt[C[1P5041039.txt[1P041039.txt[1P41039.txt[1P1039.txt[1P039.txt[1P39.txt[1P9.txt[1P.txt0439139597.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ [10@0439139597[6@      
+bash: PRODUCTS/0439139597.txt: No such file or directory
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODCUTS  amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted.uniqcount.reversed  productids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ rm -r PRODCUTS
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ mkD[Kdir PRODUCTS
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ mkdir PRODUCTSrm -r PRODCUTSls[Kegrep " 0439139597      " amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0439139597.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd PRDO[K[K[KRODUCTS
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ ec 0439139597.txt[C[1P[1@w
+   3739  617345 3459546 0439139597.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cut -d "      " -f 9 50732546.txt > 50732546.helpfulness.txt[C[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt0439139597.helpfulness.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[10@0439139597[1P[1P[1P[1P[1P[1P[7@       
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wc 0439139597.helpfulness.txt
+3739 3739 7599 0439139597.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ count=0; total=0;
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 50732546.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[1P[1P[1P[1P[1P[1P[1P[1P[10@0439139597
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $total
+5670
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $count
+3739
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo [K[K[K[K[Kecho "scale=2; $total/$count" | bc
+1.51
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo total[K[K[K[K[K[K[K[K[K[Ktotal=0;count=1[K0;
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 50732546.helpfulness.txt` ; do total=$(echo $total+($i-5.85)^2 | bc); ((count++)); done;[1P[1P[1P[1P[1@1[1@.[1@5[1@1[1P[1P[1P[1P[1P[1P[1P[1P[10@0439139597
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ ec [K[K[Kecho $count
+3739
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $total
+181047.52
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ egrep " 0439139597      " amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0439139597.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt0525947647.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ [10@0525947647[6@      
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd PRODCUTS[K[K[K[KUCTS
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cut -d "       " -f 9 0439139597.txt > 0439139597.helpfulness.txt[C[C[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt0525947647.helpfulness.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0525947647[C[C[1P[1P[1P[1P[1P[1P[1P[7@       
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wc 0525947647.helpfulness.txt
+2666 2666 6384 0525947647.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ count=0;total=0;
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 0439139597.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0525947647
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ count[K[K[K[K[Kecho $count
+2666
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $total
+30753
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo [K[K[K[K[Kecho "scale=2; $total/$count" | bc
+11.53
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ total=0;count=0;
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 0439139597.helpfulness.txt` ; do total=$(echo $total+($i-1.51)^2 | bc); ((count++)); done;[C[1P[1P[1P[1P[1@1[1@1[1@.[1@5[1@3[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0525947647
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $count
+2666
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $total
+3141404.86
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ egrep " 0439139597      " amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0439139597.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt0895260174.txt[1P[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0895260174
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd PRODCUTS[K[K[K[KUCTS
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cut -d "       " -f 9 0525947647.txt > 0525947647.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt0895260174.helpfulness.txt[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0895260174
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cut -d "       " -f 9 0895260174.txt > 0895260174.helpfulness.txt[1P[1P[1P[1P[1P[1P[1P[7@       
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wc 0895260174.helpfulness.txt
+0 0 0 0895260174.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ rm 0895260174.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wc [K[K[Kls
+0439139597.helpfulness.txt  0439139597.txt  0525947647.helpfulness.txt  0525947647.txt  0895260174.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wc 0895260174.txt
+0 0 0 0895260174.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ rm 0895260174.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd ..rm 0895260174.txtwc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm 0895260174.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37@cut -d "        " -f 9 0895260174.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd PRODUCTS[Kegrep " 0895260174      " amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0895260174.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd PRODUCTS[Kut -d "       " -f 9 0895260174.txt > 0895260174.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[37Pwc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kwc 0895260174.txtrm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ..[K[Khead productids.txt.sorted.uniqcount.reversed
+   4625 043935806X
+   3739 0439139597
+   2666 0525947647
+   2615 0895260174
+   2584 0385504209
+   2366 0590353403
+   2052 0439784549
+   2024 0316666343
+   1795 1400050308
+   1772 0312864590
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ egrep " 0439139597      " amazon_reviews_us_Books_v1_02.tsv > PRODUCTS/0439139597.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt0316666343.txt[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@ [10@0316666343[6@      
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ cd PRODUCTS
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cut -d "       " -f 9 0895260174.txt > 0895260174.helpfulness.txt[C[C[C[C[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt[1P.helpfulness.txt0316666343.helpfulness.txt[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0316666343[1P[1P[1P[1P[1P[1P[1P[7@       
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ wccut -d "       " -f 9 0316666343.txt > 0316666343.helpfulness.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cwc[K 0316666343.helpfulness.txt
+2024 2024 4190 0316666343.helpfulness.txt
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo $toal'[K; [K[K[K[K[Kotal; echo $count;
+3141404.86
+2666
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ toack[Kl[K[K[Ktal=0;count=0;
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 0525947647.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0316666343
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ ec[K[Kfor i in `cat 0316666343.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0;count=0;[Kecho $total; echo $count;
+7206
+2024
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ co[K[Kecho "scale=2; $total/$count" | bc
+3.56
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ echo "scale=2; $total/$count" | bc[9P$total; echo $count;for i in `cat 0316666343.helpfulness.txt` ; do total=$(echo $total+$i | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0;count=0;[K
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 0525947647.helpfulness.txt` ; do total=$(echo $total+($i-11.53)^2 | bc); ((count++)); done;[1P[1P[1P[1P[1P[1@3[1@.[1@5[1@6[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[10@0316666343
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ for i in `cat 0316666343.helpfulness.txt` ; do total=$(echo $total+($i-3.56)^2 | bc); ((count++)); done;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctotal=0;count=0;[Kecho "scale=2; $total/$count" | bc[9P$total; echo $count;
+489867.36
+2024
+]0;rahman@f6linux20: ~/WS4/PRODUCTSrahman@f6linux20:~/WS4/PRODUCTS$ cd ..
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ ls
+CUSTOMERS  PRODUCTS  amazon_reviews_us_Books_v1_02.tsv  customerids.txt.sorted.uniqcount.reversed  productids.txt.sorted.uniqcount.reversed  ws4.txt
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ vi README
+^CError detected while processing /usr/share/vim/vim81/ftplugin.vim:[?25l[J
+line    1:[J
+Interrupted[J
+Error detected while processing /usr/share/vim/vim81/indent.vim:[J
+line    1:[J
+Interrupted[J
+Error detected while processing /usr/share/vim/vim81/defaults.vim:[J
+line   95:[J
+Interrupted[J
+Interrupt: Press ENTER or type command to continue[?25h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;61r[?12h[?12l[22;2t[22;1t[H[2J[?25l[61;1H"README" [New File][2;1H[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H~                                                                                                                                                                                                                  [3;1H~                                                                                                                                                                                                                  [4;1H~                                                                                                                                                                                                                  [5;1H~                                                                                                                                                                                                                  [6;1H~                                                                                                                                                                                                                  [7;1H~                                                                                                                                                                                                                  [8;1H~                                                                                                                                                                                                                  [9;1H~                                                                                                                                                                                                                  [10;1H~                                                                                                                                                                                                                  [11;1H~                                                                                                                                                                                                                  [12;1H~                                                                                                                                                                                                                  [13;1H~                                                                                                                                                                                                                  [14;1H~                                                                                                                                                                                                                  [15;1H~                                                                                                                                                                                                                  [16;1H~                                                                                                                                                                                                                  [17;1H~                                                                                                                                                                                                                  [18;1H~                                                                                                                                                                                                                  [19;1H~                                                                                                                                                                                                                  [20;1H~                                                                                                                                                                                                                  [21;1H~                                                                                                                                                                                                                  [22;1H~                                                                                                                                                                                                                  [23;1H~                                                                                                                                                                                                                  [24;1H~                                                                                                                                                                                                                  [25;1H~                                                                                                                                                                                                                  [26;1H~                                                                                                                                                                                                                  [27;1H~                                                                                                                                                                                                                  [28;1H~                                                                                                                                                                                                                  [29;1H~                                                                                                                                                                                                                  [30;1H~                                                                                                                                                                                                                  [31;1H~                                                                                                                                                                                                                  [32;1H~                                                                                                                                                                                                                  [33;1H~                                                                                                                                                                                                                  [34;1H~                                                                                                                                                                                                                  [35;1H~                                                                                                                                                                                                                  [36;1H~                                                                                                                                                                                                                  [37;1H~                                                                                                                                                                                                                  [38;1H~                                                                                                                                                                                                                  [39;1H~                                                                                                                                                                                                                  [40;1H~                                                                                                                                                                                                                  [41;1H~                                                                                                                                                                                                                  [42;1H~                                                                                                                                                                                                                  [43;1H~                                                                                                                                                                                                                  [44;1H~                                                                                                                                                                                                                  [45;1H~                                                                                                                                                                                                                  [46;1H~                                                                                                                                                                                                                  [47;1H~                                                                                                                                                                                                                  [48;1H~                                                                                                                                                                                                                  [49;1H~                                                                                                                                                                                                                  [50;1H~                                                                                                                                                                                                                  [51;1H~                                                                                                                                                                                                                  [52;1H~                                                                                                                                                                                                                  [53;1H~                                                                                                                                                                                                                  [54;1H~                                                                                                                                                                                                                  [55;1H~                                                                                                                                                                                                                  [56;1H~                                                                                                                                                                                                                  [57;1H~                                                                                                                                                                                                                  [58;1H~                                                                                                                                                                                                                  [59;1H~                                                                                                                                                                                                                  [60;1H~                                                                                                                                                                                                                  [61;194H0,0-1[9CAll[1;1H[?25h[?25l[61;184H^D[1;1H[61;184H  [1;1H[?25h[?25l[61;184H^D[1;1H[61;184H  [1;1H[?25h[?25l[61;184H:[1;1H[61;1H[K[61;1H:[?2004h[?25hq[?25l[?2004l[23;2t[23;1t[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t
+]0;rahman@f6linux20: ~/WS4rahman@f6linux20:~/WS4$ exit
+
+Script done on 2021-09-24 06:34:00+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,4 @@
+    1  ls
+    2  cd WS4
+    3  script ws4.txt
+    4  history >cmds.log

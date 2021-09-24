@@ -1,0 +1,1 @@
+I think that the means and variances will differ significantly and it did differ a lot. I figured it might be partly because of bot reviews or some products just have more reviews and some customers dont create and write many reviews.
